@@ -1,0 +1,39 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "planetery_system",
+            "otherEntityName": "planetery_system",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "surface",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "radius",
+            "fieldType": "Float",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "system",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190912162840",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "planet",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

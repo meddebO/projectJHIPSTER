@@ -32,6 +32,8 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "thawing-cove-77969",
+    "herokuDeployType": "git"
   }
 }
